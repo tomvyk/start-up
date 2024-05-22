@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speedzo-Fastest Delivery</title>
+    <title>FASTfastfood</title>
     <link rel="stylesheet" href="style.css">
 
 
 </head>
 
-<body>
+
     <div class="head">
         <div class="navigation">
             <nav>
@@ -19,37 +19,64 @@
                     <img src="delivery.png" id="logo" alt="error loading image">
                     <ul class="navbar">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
                         <li><a href="index.html#Services">Services</a></li>
                         <li><a href="index.html#cus">Contact Us</a></li>
+                        <li><a href="menu.html">Menu</a> </li>
+                        <li><a href="#">About</a></li>
                     </ul>
                 </ul>
             </nav>
         </div>
     </div>
+<body>
+<button id="openModalBtn">O nás</button>
 
-    <div id="aboutpage">
-        <div id="abinside">
-            <h2>
-                About Us
-            </h2>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>O nás</h2>
+        <p>FASTfastfood je místo, kde se setkávají vášeň pro skvělé jídlo a rychlé služby. Naše nabídka je navržena tak, aby uspokojila všechny chuťové pohárky, ať už máte chuť na šťavnatý burger, čerstvé saláty, křupavé hranolky nebo osvěžující nápoje. Naší misí je poskytovat nejen chutné, ale i kvalitní jídlo, které je připravováno z čerstvých a pečlivě vybraných surovin. Chceme, aby každý váš návštěva byla nezapomenutelným zážitkem plným chutí a vůní, které vás přimějí se k nám vracet.</p>
+    </div>
+</div>
 
-            <p>
 
-            </p>
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="item active">
+            <img src="galery1.jpg" alt="Image 1" />
         </div>
-
+        <div class="item">
+            <img src="galery2.jpg" alt="Image 2" />
+        </div>
+        <div class="item">
+            <img src="galery3.jpg" alt="Image 3" />
+        </div>
+        <div class="item">
+            <img src="galery4.jpg" alt="Image 4" />
+        </div>
+        <div class="item">
+            <img src="galery5.jpg" alt="Image 5" />
+        </div>
+        <div class="item">
+            <img src="galery6.jpg" alt="Image 6" />
+        </div>
     </div>
+    <button class="btn prev">Prev</button>
+    <button class="btn next">Next</button>
+    <div class="dots"></div>
+</div>
 
-    
 
 
+
+<footer class="footer">
+    <img src="face.png" alt="facebok">
+    <img src="yout.png" alt="youtube">
+    <img src="ig.png" alt="instagram">
+    <img src="mess.png" alt="messenger"><br>
+    <p class="foottext">Contact us</p>
+</footer>
 </body>
+<script src="script.js"></script>
 
-    <div id="aboutf">
-        <footer>
-            <p><i id="insta" class="bi bi-instagram"></i><i id="twitter" class="bi bi-twitter"></i><i id="facebook"
-                class="bi bi-facebook"></i><i id="whatsapp" class="bi bi-whatsapp"></i>
-            </p>
-        </footer>
-    </div>
+</html>
